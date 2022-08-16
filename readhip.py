@@ -20,7 +20,8 @@ def main(file=None):
     ext = spl.pop(-1)
     file_wo_ext = '.'.join(spl)
     print('file:', file_wo_ext, '||ext:', ext)
-
+    # Test comments
+    
     sys.exit()
 
     if spl[1] not in ['zip', 'ZIP','Zip']:
